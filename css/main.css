@@ -145,7 +145,7 @@ a.button-bit:active {
     margin: auto;
     width: 65px;
     height: 70px;
-    background-image: url(/img/service-sprites.png);
+    background-image: url(/img/service-sprite.png);
 }
 .service-icon-1 { background-position: left 0px center; }
 .service-icon-2 { background-position: left 65px center; }
@@ -197,24 +197,67 @@ h4 {
 
 /* FOOTER */
 footer {
-    background-color: #2C2C2C;
+    background-color: #313131;
     text-align: center;
-    color: #E0E0E0;
+    color: #BEBEBE;
 }
 .footer-container {
-    height: 206px;
-    padding: 40px 0;
+    padding: 35px 0;
 }
 .copyright {
-    height: 82px;
-    background-color: #313131;
+    background-color: #2C2C2C;
+    font-size: 14px;
+}
+.copyright-container {
+    padding: 34px 0;
 }
 h5 {
+    color: #E0E0E0;
     font: 30px "Lato Black";
-    margin: 20px 0;
+    margin: 15px 0;
 }
 h6 {
     font: 20px "Lato Light";
-    margin: 20px 0;
+    margin: 15px 0;
 }
-
+.contact {
+    font-size: 14px;
+    padding: 5px 0;
+}
+.address {
+    position: relative;
+    margin-right: 55px;
+}
+.address::before, .phone::before {
+    content: "";
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(/img/contact-sprite.png);
+    position: absolute;
+    left: -18px;
+    bottom: 1px;
+}
+.phone { position: relative; }
+.phone::before {
+    background-position: left 14px center;
+}
+.social {
+    font-size: 0;
+    margin: 20px;
+}
+.social-icon {
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    background-image: url(/img/social-sprite.png);
+    margin: 3px;
+}
+.social-icon:hover {
+    background-image: url(/img/social-sprite-fade.png);
+}
+.rss { background-position: left 0px center; }
+.printerest { background-position: left 32px center; }
+.dribbble { background-position: left 64px center; }
+.twitter { background-position: left 96px center; }
+.facebook { background-position: left 128px center; }
