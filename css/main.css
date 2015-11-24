@@ -274,7 +274,10 @@ h6 {
     margin: 3px;
 }
 .social-icon:hover {
-    background-image: url(/img/social-sprite-fade.png);
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in;
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
 }
 .rss { background-position: left 0px center; }
 .printerest { background-position: left 32px center; }
