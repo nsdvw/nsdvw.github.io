@@ -12,7 +12,6 @@ html, body {
 
 /* HEADER */
 header {
-    height: 100px;
     background-color: #262626;
     color: #D9D9D9;
     font-family: "ReklameScript RegularDEMO";
@@ -22,10 +21,13 @@ header {
     display: table;
 }
 .logo {
-    font-size: 28px;
-    display: table-cell;
-    vertical-align: middle;
-    padding-bottom: 6px;
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    height: 33px;
+    width: 107px;
+    margin: 33px 0;
 }
 .menu {
     display: table-cell;
@@ -51,15 +53,6 @@ header {
 }
 .menu-item a:hover { color: #FCC; }
 .menu-item.active a:hover { color: #FCC; }
-.logo::before {
-    content: "";
-    width: 39px;
-    height: 33px;
-    display: inline-block;
-    background-image: url(/img/logo.png);
-    position: relative;
-    top: 12px;
-}
 
 /* SLIDER SECTION */
 .slider {
