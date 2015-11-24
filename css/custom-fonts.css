@@ -14,7 +14,3 @@
     font-family: "Lato LightItalic";
     src: local("Lato LightItalic"), url(/fonts/Lato-LightItalic.ttf);
 }
-@font-face {
-    font-family: "ReklameScript RegularDEMO";
-    src: local("ReklameScript RegularDEMO"), url(/fonts/Reklame-Script-Regular-DEMO.ttf);
-}
