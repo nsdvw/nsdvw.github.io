@@ -38,6 +38,7 @@ header {
 .menu-item {
     display: inline-block;
     margin-left: 50px;
+    text-transform: uppercase;
 }
 .menu-item a:link,
 .menu-item a:active,
@@ -86,7 +87,8 @@ h2 em {
     почему-то не работает, очень странно;
     а вот по одному все правильно применяется */
     font-family: "Lato Black";
-    font-size: 14px; 
+    font-size: 14px;
+    text-transform: uppercase;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -175,6 +177,7 @@ h4 {
     cursor: pointer;
     font: 12px "Lato Black";
     padding: 12px 20px;
+    text-transform: uppercase;
 }
 .portfolio input {
     display: none;
