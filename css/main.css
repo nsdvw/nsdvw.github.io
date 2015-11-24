@@ -19,6 +19,7 @@ header {
 .header-container {
     height: 100%;
     display: table;
+    padding-top: 1px;
 }
 .logo {
     background-image: url(/img/logo.png);
